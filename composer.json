@@ -1,0 +1,22 @@
+{
+  "name": "fzsys/madmin",
+  "description": "Admin panel for Memcache",
+  "version": "1.0.0",
+  "type": "project",
+  "keywords": ["memcached", "admin panel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Igor Uhan",
+      "email": "uhan.igor@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Madmin\\": "src/"
+    }
+  }
+}
